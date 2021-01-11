@@ -1,0 +1,74 @@
+.todo {
+    margin-top: 10px;
+    padding: 50px 0 0;
+}
+
+.todo-form{
+    width: 350px;
+    margin: 10px;
+}
+
+.todo-form__text{
+    width: 60%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+}
+
+.todo-form__button{
+    width: 30%;
+    background-color: #2F71E5;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+}
+
+.todo-form__button:hover{
+    background-color: #347EFF;
+  }
+
+.todo-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+li{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.delete{
+    margin-left: 5px;
+    padding: 0;
+    border: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../img/trash-icon.svg);
+    background-color: black;
+}
+
+.delete:hover{
+    cursor: default;
+}
+
+.update{
+    margin-left: 5px;
+}
+
+.update:hover{
+    cursor: default;
+}
