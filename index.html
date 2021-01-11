@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/pages/index.css">
 </head>
 
 <body>
@@ -20,9 +20,18 @@
         <ul class="todo-list"></ul>
     </section>
     <section class="popup">
-        <h3 class="popup-title">Добавить задачи</h3>
-        <input type="text">
-        <button class="popup-button">+</button>
+        <div class="popup__content">
+            <img class="popup__close" src="./images/close.svg" alt="X"/>
+            <h3 class="popup__title">Добавить подзадачи</h3>
+            <input class="popup__input" type="text">
+            <ul>
+                <li class="popup__line">1</li>
+                <li class="popup__line">2</li>
+                <li class="popup__line">3</li>
+                <li class="popup__line">4</li>
+            </ul>
+            <button class="popup__button">+</button>
+        </div>
     </section>
     <script src="/js/index2.js"></script>
 </body>

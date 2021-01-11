@@ -1,0 +1,12 @@
+@import '../blocks/header/header.css';
+@import '../blocks/todo/todo.css';
+@import '../blocks/popup/popup.css';
+
+body{
+    background-color: #e8e8e8;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
