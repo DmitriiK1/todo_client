@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    
-    <script src="/js/index.js"></script>
+    <header>
+        <h1 class="container">Todo</h1>
+    </header>
+    <section class="todo container">
+        <form class="todo-form" action="">
+            <input class="todo-form__text" type="text" placeholder="Введите задачу">
+            <button class="todo-form__button">Добавить</button>
+        </form>
+        <ul class="todo-list"></ul>
+    </section>
+    <section class="popup">
+        <h3 class="popup-title">Добавить задачи</h3>
+        <input type="text">
+        <button class="popup-button">+</button>
+    </section>
+    <script src="/js/index2.js"></script>
 </body>
+
 </html>
