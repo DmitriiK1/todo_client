@@ -4,9 +4,21 @@
 
 body{
     background-color: #e8e8e8;
+    margin: 0;
+    
 }
 
 .container {
     width: 1000px;
     margin: 0 auto;
+}
+
+input{
+    border: 0;
+    outline: none;
+}
+
+button{
+    outline: none;
+    border: 0;
 }
