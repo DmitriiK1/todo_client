@@ -21,18 +21,31 @@
     </section>
     <section class="popup">
         <div class="popup__content">
-            <img class="popup__close" src="./images/close.svg" alt="X"/>
-            <h3 class="popup__title">Добавить подзадачи</h3>
-            <input class="popup__input" type="text">
-            <ul>
+            <img class="popup__close" src="./images/close.svg" alt="X" />
+            <div class="popup__container">
+                <h3 class="popup__title"></h3>
+                <button class="popup__editing"></button>
+            </div>
+            <div class="popup__list">
+                <input class="popup__input" type="text">
+                <input class="popup__input" type="text">
+                <input class="popup__input" type="text">
+                <input class="popup__input" type="text">
+                <button class="popup__input-button">Еще строка</button>
+            </div>
+            <button class="popup__button">Добавить задачи</button>
+            <!-- <input class="popup__input" type="text">
+            <button class="popup-form__button">Добавить</button>
+            <ul class="popup__list">
                 <li class="popup__line">1</li>
                 <li class="popup__line">2</li>
                 <li class="popup__line">3</li>
                 <li class="popup__line">4</li>
             </ul>
-            <button class="popup__button">+</button>
+            <button class="popup__button">Добавить</button> -->
         </div>
     </section>
+    <script src="/js/popup.js"></script>
     <script src="/js/index2.js"></script>
 </body>
 
